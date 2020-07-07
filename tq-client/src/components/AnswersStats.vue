@@ -7,10 +7,10 @@
         </div>
         <div v-for="(answer,index) in answers" :key="index">
             <div class="row align-middle">
-                <div class="small-2 columns" style="padding: 10px">
+                <div class="medium-2 columns" style="padding: 10px">
                     Answer {{ index+1 }}
                 </div>
-                <div class="small-10 columns">
+                <div class="medium-10 columns">
                     <div class="answer">
                         <div
                             class="answer text-center" 
